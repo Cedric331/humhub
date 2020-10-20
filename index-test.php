@@ -1,6 +1,6 @@
 <?php
 
-/**
+/** test
  * @link https://www.humhub.org/
  * @copyright Copyright (c) 2015 HumHub GmbH & Co. KG
  * @license https://www.humhub.com/licences
@@ -21,7 +21,7 @@ require(__DIR__ . '/protected/vendor/yiisoft/yii2/Yii.php');
 $config = yii\helpers\ArrayHelper::merge(
     // add more configurations here
     (is_readable(__DIR__ . '/protected/humhub/tests/codeception/config/dynamic.php')) ? require(__DIR__ . '/protected/humhub/tests/codeception/config/dynamic.php') : [],
-    
+
     require(__DIR__ . '/protected/humhub/tests/codeception/config/acceptance.php')
 );
 
